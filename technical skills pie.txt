@@ -1,0 +1,51 @@
+		<div class="owl-carousel owl-theme">
+						<div class="skill">
+							<span class="chart" data-percent="90">
+								<span class="percent">90</span>
+								<canvas height="152" width="152"></canvas>
+							</span>
+							<h4>HTML</h4>
+							<p>Used in most of my webpage product.</p>
+						</div>
+
+
+						<div class="skill">
+							<span class="chart" data-percent="70">
+								<span class="percent">70</span>
+								<canvas height="152" width="152"></canvas>
+							</span>
+							<h4>CSS</h4>
+							<p>Used widespread in all of my projects</p>
+						</div>
+
+
+						<div class="skill">
+							<span class="chart" data-percent="60">
+								<span class="percent">60</span>
+								<canvas height="152" width="152"></canvas>
+							</span>
+							<h4>JavaScript</h4>
+							<p>Used in most of my webpage product.</p>
+						</div>
+						
+						<div class="skill">
+							<span class="chart" data-percent="60">
+								<span class="percent">40</span>
+								<canvas height="152" width="152"></canvas>
+							</span>
+							<h4>PHP</h4>
+							<p>Used mostly to make MySql functional on a Webpage </p>
+						</div>
+						<div class="skill">
+							<span class="chart" data-percent="60">
+								<span class="percent">30</span>
+								<canvas height="152" width="152"></canvas>
+							</span>
+							<h4>MySql</h4>
+							<p>Used in some of my projects with Database need</p>
+						</div>
+
+
+
+
+					</div>

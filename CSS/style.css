@@ -1,0 +1,349 @@
+.body {
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	letter-spacing: 1px;
+}
+
+.section {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+/*---------------------------------------*/
+/* slides buttons */
+/*---------------------------------------*/
+.slides-navigation .prev,
+.slides-navigation .next {
+	width: 47px;
+	height: 47px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+	left: 20px;
+	background-image: url(../img/icons/prev.png);
+}
+
+.slides-navigation a.next {
+	right: 20px;
+	background-image: url(../img/icons/next.png);
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background-color:rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+.slides-navigation {
+	z-index: 6;
+}
+
+.titleMessage {
+	position: absolute;
+	width: 100%;
+	height: 260%;
+	top: 50%;
+	z-index: 9;
+	text-align: center;
+	margin-top: -130px;
+}
+
+.titleMessage .heading p {
+	color: #FFF;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+	font-weight: 100;
+	letter-spacing: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 100%; 
+}
+
+.titleMessage .heading .main {
+	font-size: 270%;
+
+}
+
+/* About Me --------------------------------------*/
+.aboutimage {
+	max-width: 100%;
+}
+
+.about-section {
+	padding: 80px 0;
+}
+
+/* Skill Section --------------------------------------*/
+.skillsSection {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/skill-bg1.jpg);
+	background-color: #ea8685;
+	color: #fff;
+	padding: 3%;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.tech-logo img {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	padding: 10%;
+	display: block;
+	margin: 14% auto 5% auto;
+	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px; 
+}
+
+.tech-logo img:hover{
+	background-color:rgba(234, 134, 134, 0.8);
+}
+
+.recent-project {
+	max-width: 300%;
+	padding-right: 1%;
+	padding-left: 1%;
+	
+}
+
+.recent-project-img {
+	max-width: 100%;
+	width: 350%;
+	height: 100%;
+	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+}
+
+
+
+.skill {
+	text-align: center;
+	margin-left: 25px;
+}
+
+.chart {
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.chart .percent {
+	color: black;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.chart .percent:after {
+	content: "%";
+}
+
+/* Contact --------------------------------------*/
+.contactButton {
+	color: #fff;
+	padding: 15px 30px;
+	display: inline-block;
+	margin-top: 22px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	box-shadow: var(--shadow);
+	background-color: #ea8685;
+	position: relative;
+
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #ea8685;
+	background-color: #fff;
+}
+
+.contactSection {
+	background-color: #ea8685;
+	color: #fff;
+	padding: 5%;
+}
+
+/* Portfolio --------------------------------------*/
+/*CSS Variables*/
+:root {
+	--primary: #ea8685;
+	--dark: #333;
+	--light: lightgray;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+
+
+.section-title {
+	margin-bottom: 3rem;
+	padding-bottom: 1rem;
+	padding-top: 25px;
+	color: rgb(145, 145, 145);
+	border-bottom: 5px solid rgb(246, 246, 246);
+}
+
+.project-btn {
+	color: #ea8685;
+	padding: 15px 30px;
+	display: inline-block;
+	margin-top: 15px;
+	border: 1px solid #ea8685;
+	border-radius: 2px;
+	box-shadow: var(--shadow);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-btn:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #ea8685;
+}
+
+.Project {
+	background: white;
+	/*    box-shadow: var(--shadow);*/
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 3rem;
+	padding-right: rem;
+	font-size: 20px;
+}
+
+
+.project-info {
+	background: rgba(0, 0, 0, 0.1);
+	color: black;
+	padding: 1.875rem;
+	border-radius: 4px;
+	height: 100%; 
+}
+
+.bg-dark {
+	background-color: #ea8685 !important;
+
+}
+
+.SLCC {
+	background-image: url(../img/slcc.PNG);
+	background-size: cover;
+	background-position: center;
+}
+
+.E-comerce {
+	background-image: url();
+	background-size: cover;
+	background-position: center;
+}
+
+.row {
+	padding-bottom: 5%;
+
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+
+	.Project {
+		grid-template-columns: 1fr;
+		padding: 3rem;
+	}
+
+	.contactButton,
+	.btn {
+		display: inline-block;
+		text-align: center;
+		margin: auto;
+	}
+
+	img {
+		max-height: 110%;
+		max-width: 110%;
+		margin-bottom: 15px;
+	}
+}
+
+
+/*
+.card mb-3 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr; 
+}
+*/
+
+.card-img-top {
+	height: 13rem;
+	object-fit: cover;
+}
+
+/*CopyrightSection*************************************/
+.copyrightSection {
+	background-color: #000;
+	color: #fff;
+	padding: 30px 5px;
+}
+
+/*navigation******************************************** */
+#navigation {
+	background: #ea8685;
+	padding: 20px 10px;
+	z-index: 100;
+	box-shadow: var(--shadow);
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+.sticky + .section {
+	padding-top: 170px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.slides-navigation .prev,
+.slides-navigation .next {
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+}
